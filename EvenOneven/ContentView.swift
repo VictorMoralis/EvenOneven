@@ -12,7 +12,7 @@ struct ContentView: View {
     @State var uitvoer: String = ""
     var body: some View {
         VStack {
-            HeaderView("even en oneven", subtitle: "@state, gehele deling, tertiare operator, textfield, button", desc: "de app berekent van een gegeven getal of het even of oneven is..", back: .indigo, textColor: .white)
+            HeaderView("even en oneven", subtitle: "@state, gehele deling, tertiare operator, textfield, button", desc: "de app berekent van een gegeven getal of het even of oneven is..", back: .indigo, textColor: .gray)
             
             Spacer()
             TextField(text: $invoer, label:{
